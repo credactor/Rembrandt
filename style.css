@@ -1,0 +1,122 @@
+#nav .carousel .carousel-item {
+    width: 100%;
+}
+
+#tabs-swipe {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+    position: fixed;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+    margin-top: -16px;
+}
+
+.page-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-copyright {
+    /*height: 30px;*/
+    margin-top: -20px;
+    text-indent: 20px;
+}
+
+article {
+    min-height: 100vh;
+    height: 100%;
+    margin-top: -34px;
+    margin-bottom: 70px;
+}
+
+#home {
+    background-color: #e1f5fe;
+    padding: 60px 20px 0px;
+}
+
+#life {
+    background-color: #c8e6c9;
+    padding: 60px 20px 0px;
+}
+
+#paintings {
+    background-color: #d7ccc8;
+    padding: 60px 20px 0px;
+}
+
+#self {
+    background-color: #fff3e0;
+    padding: 60px 20px 0px;
+}
+
+#etchings {
+    background-color: #e0e0e0;
+    padding: 60px 20px 0px;
+}
+
+#resources {
+    background-color: #e8eaf6;
+    padding: 60px 20px 0px;
+}
+
+h3 {
+    padding-top: 10px;
+    text-align: left;
+    font-family: "Gochi Hand";
+}
+
+h4 {
+    padding-top: 30px;
+    text-align: center;
+    font-family: "Gochi Hand";
+}
+
+.chrono {
+    font-family: "Gochi Hand";
+    font-size: 20px;
+    margin-bottom: -12px;
+}
+
+#resources a,
+li {
+    font-size: 20px;
+    line-height: 2;
+}
+
+.carousel .carousel-item s-year {
+    margin: 0px;
+    background-color: #fff3e0;
+    color: #000;
+    box-sizing: border-box;
+    padding: 0px 70px;
+    font-size: 28px;
+    text-align: center;
+    font-family: "Gochi Hand";
+}
+
+card-title {
+    font-size: 20px;
+}
+
+.card-content {
+    margin-top: -20px;
+    background-color: #bdbdbd;
+    box-sizing: border-box;
+    padding: 0px 0px;
+    font-size: 28px;
+    height: 70px;
+    text-align: center;
+    font-family: "Gochi Hand";
+}
