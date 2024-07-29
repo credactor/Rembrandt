@@ -34,6 +34,10 @@ main {
     text-indent: 20px;
 }
 
+#copyrights {
+    margin-right: 20px;
+}
+
 article {
     min-height: 100vh;
     height: 100%;
@@ -89,8 +93,7 @@ h4 {
     margin-bottom: -12px;
 }
 
-#resources a,
-li {
+#resources a, li {
     font-size: 20px;
     line-height: 2;
 }
